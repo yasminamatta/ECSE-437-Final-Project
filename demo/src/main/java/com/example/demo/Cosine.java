@@ -7,10 +7,11 @@ public class Cosine {
     private double n;
     static final double PI = 3.14159265359;
     DecimalFormat df = new DecimalFormat("#.########");
-    
-    public Cosine(int n) {
+
+    public Cosine(double n) {
         this.n = n;
     }
+
     public String compute() {
         double x = this.n * (PI / 180.0);
 
