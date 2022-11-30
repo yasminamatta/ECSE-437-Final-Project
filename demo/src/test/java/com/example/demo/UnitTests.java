@@ -27,10 +27,10 @@ public class UnitTests {
 
     @Test
     @DisplayName("Tangent Testing")
-    void testSine() {
+    void testTangent() {
         Tangent tangent = new Tangent(10);
-        DecimalFormat df = new DecimalFormat("#.########");
-        assertEquals(df.format(Math.tan(Math.toRadians(37))), tangent.compute());
+        DecimalFormat df = new DecimalFormat("#.#######");
+        assertEquals(df.format(Math.tan(Math.toRadians(10))), tangent.compute());
     }
 
 }
