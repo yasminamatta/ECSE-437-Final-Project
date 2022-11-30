@@ -25,4 +25,12 @@ public class UnitTests {
         assertEquals(df.format(Math.sin(Math.toRadians(37))), sine.compute());
     }
 
+    @Test
+    @DisplayName("Tangent Testing")
+    void testSine() {
+        Tangent tangent = new Tangent(10);
+        DecimalFormat df = new DecimalFormat("#.########");
+        assertEquals(df.format(Math.tan(Math.toRadians(37))), tangent.compute());
+    }
+
 }

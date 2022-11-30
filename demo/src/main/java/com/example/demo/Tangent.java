@@ -15,7 +15,11 @@ public class Tangent {
 
     //create tangent method using taylor series
     public String compute() {
-        return "";
+        Cosine cosine = new Cosine(this.n);
+        Sine sine = new Sine(this.n);
+        Double tangent = Double.parseDouble(sine.compute()) / Double.parseDouble(cosine.compute());
+        return df.format(tangent);
     }
+
 
 }
