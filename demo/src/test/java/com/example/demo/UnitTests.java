@@ -16,5 +16,13 @@ public class UnitTests {
         DecimalFormat df = new DecimalFormat("#.########");
         assertEquals(df.format(Math.cos(Math.toRadians(30))), cosine.compute());
     }
-    
+
+    @Test
+    @DisplayName("Sine Testing")
+    void testSine() {
+        Sine sine = new Sine(37);
+        DecimalFormat df = new DecimalFormat("#.########");
+        assertEquals(df.format(Math.sin(Math.toRadians(37))), sine.compute());
+    }
+
 }
