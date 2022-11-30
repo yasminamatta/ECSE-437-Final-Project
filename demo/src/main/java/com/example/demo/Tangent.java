@@ -8,12 +8,12 @@ public class Tangent {
     private double n;
     static final double PI = 3.14159265359;
     DecimalFormat df = new DecimalFormat("#.########");
-    
-    public Tangent(int n) {
-        this.n = n;
+
+    public Tangent(double n2) {
+        this.n = n2;
     }
 
-    //create tangent method using taylor series
+    // create tangent method using taylor series
     public String compute() {
         return "";
     }

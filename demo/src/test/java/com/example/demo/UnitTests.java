@@ -25,4 +25,11 @@ public class UnitTests {
         assertEquals(df.format(Math.sin(Math.toRadians(37))), sine.compute());
     }
 
+    @Test
+    @DisplayName("Co Testing")
+    void testCotangent() {
+        Cotangent cotangent = new Cotangent(20);
+        DecimalFormat df = new DecimalFormat("#.#######");
+        assertEquals(df.format(1 / Math.tan(Math.toRadians(20))), cotangent.compute());
+    }
 }
