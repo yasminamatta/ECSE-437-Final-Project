@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b39de160_0452b7bb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1020551
+      },
+      "writtenOn": "2022-11-30T19:26:49Z",
+      "side": 1,
+      "message": "Great way to compute the sine function, and the test looks good! Let\u0027s continue to work on the other classes.",
+      "revId": "21515ac8a5f44967df3d4fe4c71094069d4263a3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
