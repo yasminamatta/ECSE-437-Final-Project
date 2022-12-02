@@ -49,4 +49,12 @@ public class UnitTests {
         assertEquals(BigIntegerMath.factorial(11).intValue(), Factorial.compute(11));
     }
 
+    @Test
+    @DisplayName("Remainder Testing")
+    void testRemainder() {
+        Remainder remainder = new Remainder(10, 3);
+        DecimalFormat df = new DecimalFormat("#.########");
+        assertEquals(df.format(10 % 3), remainder.compute());
+    }
+
 }
