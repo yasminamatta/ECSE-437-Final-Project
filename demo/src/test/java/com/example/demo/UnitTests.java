@@ -49,4 +49,12 @@ public class UnitTests {
         assertEquals(BigIntegerMath.factorial(11).intValue(), Factorial.compute(11));
     }
 
+    @Test
+    @DisplayName("Secant Testing")
+    void testSecant() {
+        Secant secant = new Secant(20);
+        DecimalFormat df = new DecimalFormat("#.######");
+        assertEquals(df.format(1 / Math.cos(Math.toRadians(20))), secant.compute());
+    }
+
 }
