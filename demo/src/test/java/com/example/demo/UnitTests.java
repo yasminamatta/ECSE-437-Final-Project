@@ -29,6 +29,12 @@ public class UnitTests {
     }
 
     @Test
+    @DisplayName("Tangent Testing")
+    void testTangent() {
+        Tangent tangent = new Tangent(10);
+        DecimalFormat df = new DecimalFormat("#.#######");
+        assertEquals(df.format(Math.tan(Math.toRadians(10))), tangent.compute());
+        
     @DisplayName("Cotangent Testing")
     void testCotangent() {
         Cotangent cotangent = new Cotangent(20);
