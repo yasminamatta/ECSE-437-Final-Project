@@ -50,11 +50,19 @@ public class UnitTests {
     }
 
     @Test
+
+    @DisplayName("Remainder Testing")
+    void testRemainder() {
+        Remainder remainder = new Remainder(10, 3);
+        DecimalFormat df = new DecimalFormat("#.########");
+        assertEquals(df.format(10 % 3), remainder.compute());
+}
     @DisplayName("Secant Testing")
     void testSecant() {
         Secant secant = new Secant(20);
         DecimalFormat df = new DecimalFormat("#.######");
         assertEquals(df.format(1 / Math.cos(Math.toRadians(20))), secant.compute());
+
     }
 
 }
