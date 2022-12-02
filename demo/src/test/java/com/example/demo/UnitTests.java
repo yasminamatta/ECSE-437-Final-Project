@@ -5,7 +5,6 @@ import java.text.DecimalFormat;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.http.converter.xml.SourceHttpMessageConverter;
 
 import com.google.common.math.BigIntegerMath;
 
@@ -34,7 +33,8 @@ public class UnitTests {
         Tangent tangent = new Tangent(10);
         DecimalFormat df = new DecimalFormat("#.#######");
         assertEquals(df.format(Math.tan(Math.toRadians(10))), tangent.compute());
-        
+    }
+
     @DisplayName("Cotangent Testing")
     void testCotangent() {
         Cotangent cotangent = new Cotangent(20);
