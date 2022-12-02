@@ -50,6 +50,12 @@ public class UnitTests {
     }
 
     @Test
+    @DisplayName("Cosecant Testing")
+    void testCosecant() {
+        Cosecant cosecant = new Cosecant(20);
+        DecimalFormat df = new DecimalFormat("#.######");
+        assertEquals(df.format(1 / Math.sin(Math.toRadians(20))), cosecant.compute());
+    }
 
     @DisplayName("Remainder Testing")
     void testRemainder() {
@@ -64,5 +70,4 @@ public class UnitTests {
         assertEquals(df.format(1 / Math.cos(Math.toRadians(20))), secant.compute());
 
     }
-
 }
