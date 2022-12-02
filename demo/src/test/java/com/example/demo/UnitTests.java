@@ -35,6 +35,7 @@ public class UnitTests {
         assertEquals(df.format(Math.tan(Math.toRadians(10))), tangent.compute());
     }
 
+    @Test
     @DisplayName("Cotangent Testing")
     void testCotangent() {
         Cotangent cotangent = new Cotangent(20);
@@ -42,9 +43,18 @@ public class UnitTests {
         assertEquals(df.format(1 / Math.tan(Math.toRadians(20))), cotangent.compute());
     }
 
+    @Test
     @DisplayName("Factorial Testing")
     void testFactorial() {
         assertEquals(BigIntegerMath.factorial(11).intValue(), Factorial.compute(11));
+    }
+
+    @Test
+    @DisplayName("Secant Testing")
+    void testSecant() {
+        Secant secant = new Secant(20);
+        DecimalFormat df = new DecimalFormat("#.######");
+        assertEquals(df.format(1 / Math.cos(Math.toRadians(20))), secant.compute());
     }
 
 }
