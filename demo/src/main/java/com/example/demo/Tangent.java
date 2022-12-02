@@ -2,7 +2,6 @@
 package com.example.demo;
 
 import java.text.DecimalFormat;
-import java.util.Scanner;
 
 public class Tangent {
     private double n;
