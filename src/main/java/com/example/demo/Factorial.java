@@ -2,10 +2,7 @@ package com.example.demo;
 
 public class Factorial {
 
-    private int n;
-
-    public Factorial(int n) {
-        this.n = n;
+    public Factorial() {
     }
 
     public static int compute(int n) {
