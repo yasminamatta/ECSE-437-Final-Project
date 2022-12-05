@@ -46,9 +46,9 @@ mvnw clean install
 [Jenkins_url]:https://www.jenkins.io/
 [SprintBootB]:https://img.shields.io/badge/Spring-brightgreen?style=for-the-badge&logo=spring
 [SpringBoot_url]:https://spring.io/projects/spring-boot
-[SonarCloudB]:
+[SonarCloudB]:https://img.shields.io/badge/sonar-white?style=for-the-badge&logo=sonar
 [SonarCloud_url]:https://www.sonarsource.com/products/sonarcloud/
-[Openshift]:
+[Openshift]:https://img.shields.io/badge/openshift-red?style=for-the-badge&logo=Red%20Hat%20Open%20Shift
 [Openshift_url]:https://www.redhat.com/en/technologies/cloud-computing/openshift
 
 
