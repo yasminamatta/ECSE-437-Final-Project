@@ -13,10 +13,10 @@ This project is a project about methematical functions. There are multiple funct
 
 ### Built With
 
-* [![SpringBoot][SprintBootB]][https://spring.io/projects/spring-boot]
-* [![SonarCloud][SonarCloudB]][https://www.sonarsource.com/products/sonarcloud/]
-* [![Openshift][OpenshiftB]][https://www.redhat.com/en/technologies/cloud-computing/openshift]
-* [![Jenkins][JenkinsB]][https://www.jenkins.io/]
+* [![SpringBoot][SprintBootB]][SpringBoot_url]
+* [![SonarCloud][SonarCloudB]][SonarCloud_url]
+* [![Openshift][OpenshiftB]][Openshift_url]
+* [![Jenkins][JenkinsB]][Jenkins_url]
 
 ## Getting Started
 
@@ -42,7 +42,14 @@ mvnw clean install
 ```
 
 
-[JenkinsB]:https://img.shields.io/badge/Jenkins-Jenkins-white?style=for-the-badge&logo=jenkins
+[JenkinsB]:https://img.shields.io/badge/Jenkins-grey?style=for-the-badge&logo=jenkins
+[Jenkins_url]:https://www.jenkins.io/
+[SprintBootB]:https://img.shields.io/badge/Spring-brightgreen?style=for-the-badge&logo=spring
+[SpringBoot_url]:https://spring.io/projects/spring-boot
+[SonarCloudB]:
+[SonarCloud_url]:https://www.sonarsource.com/products/sonarcloud/
+[Openshift]:
+[Openshift_url]:https://www.redhat.com/en/technologies/cloud-computing/openshift
 
 
 
