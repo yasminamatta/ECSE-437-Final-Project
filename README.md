@@ -30,7 +30,7 @@ This project is a project about methematical functions. There are multiple funct
 git clone "repository_url"
 ```
 
-2. Build the project
+2. Build the project  
 Perform a clean installation of the maven project. This will build the project and run the tests.
 On linus/MacOs:
 ```sh
